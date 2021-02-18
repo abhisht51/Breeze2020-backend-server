@@ -1,11 +1,11 @@
 # Breeze2020-backend-server
 
-###REQUIREMENTS
+### REQUIREMENTS
 
 [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
 
 
-###DEVELOPMENT
+### DEVELOPMENT
 
     # Clone secrets and fablib repositories
     git clone git@github.com:NUKnightLab/secrets.git
@@ -36,7 +36,7 @@ along with everything else, **but should not include any secrets.**  To run the 
     python manage.py runserver --settings=core.settings.<your username>
    
     
-###DEPLOYMENT
+### DEPLOYMENT
 
 Projects are deployed to the application user's home directory in: ``/home/apps/sites``
 
@@ -49,7 +49,7 @@ Deployment is by direct clone from git. The name of the git repository will be t
     fab stg deploy
 
 
-###REQUIRED ENVIRONMENT VARIABLES:
+### REQUIRED ENVIRONMENT VARIABLES:
 
 - DJANGO_SETTINGS_MODULE
 - DJANGO_SECRET_KEY
