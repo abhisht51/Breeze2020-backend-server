@@ -8,8 +8,7 @@
 ### DEVELOPMENT
 
     # Clone secrets and fablib repositories
-    git clone git@github.com:NUKnightLab/secrets.git
-    git clone git@github.com:NUKnightLab/fablib.git
+    git clone https://github.com/abhisht51/Breeze2020-backend-server
     
     # Change into project directory
     cd <project_name>
