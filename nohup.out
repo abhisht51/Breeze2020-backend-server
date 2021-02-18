@@ -1,0 +1,32 @@
+[2020-01-26 16:53:44,901: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-01-26 16:53:44,912: INFO/MainProcess] mingle: searching for neighbors
+[2020-01-26 16:53:45,939: INFO/MainProcess] mingle: all alone
+[2020-01-26 16:53:45,958: INFO/MainProcess] celery@breeze ready.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+
+worker: Cold shutdown (MainProcess)
+
+worker: Cold shutdown (MainProcess)
+ 
+ -------------- celery@breeze v4.4.0 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.3.0-19-generic-x86_64-with-Ubuntu-19.10-eoan 2020-01-26 16:53:44
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         __main__:0x7f1b7778fa90
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . api.celery.debug_task
+  . djcelery_email_send_multiple
+
